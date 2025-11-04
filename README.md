@@ -5,7 +5,7 @@
 - Just clone the repo
 
 ```bash
-git clone https://github.com/your-username/github-scraper.git
+git clone https://github.com/Krasper707/github-scraper.git
 cd github-scraper
 ```
 
