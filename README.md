@@ -3,7 +3,7 @@
 - This is just a tool for AI Agents to take use of. Cuz I hate it when they say "oH I cANNoT sCrApE gItHub ReADmEs, i HaVE no TooL" ; Well now you do.
 
 - Just clone the repo
-
+- For the non-technical people using this (I do not know why you would ) or for ease of access , heres the link for deployed app on streamlit : [Link](https://scraper-for-repos.streamlit.app/)
 ```bash
 git clone https://github.com/Krasper707/github-scraper.git
 cd github-scraper
