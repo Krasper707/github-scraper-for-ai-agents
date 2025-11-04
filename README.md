@@ -5,7 +5,7 @@
 - Just clone the repo
 - For the non-technical people using this (I do not know why you would ) or for ease of access , heres the link for deployed app on streamlit : [Link](https://scraper-for-repos.streamlit.app/)
 ```bash
-git clone https://github.com/Krasper707/github-scraper.git
+git clone https://github.com/Krasper707/github-scraper-for-ai-agents.git
 cd github-scraper
 ```
 
