@@ -46,11 +46,11 @@ def get_all_repo_info(user_or_org_url: str) -> list:
             
             relative_url = repo_link['href']
             full_url = urljoin(base_url, relative_url)
-            
-            # --- NEW: Fork Detection Logic ---
-            # Check for the "Forked from" span. Its presence indicates a fork.
-            fork_span = item.find('span', string=lambda text: text and 'Forked from' in text)
-            repo_type = "Fork" if fork_span else "Original"
+            item_text = item.get_text()
+            if "Forked from" in item_text:
+                repo_type = "Fork"
+            else:
+                repo_type = "Original"
             
             all_repo_info.append({'url': full_url, 'type': repo_type})
 
